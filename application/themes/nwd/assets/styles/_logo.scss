@@ -1,0 +1,18 @@
+// logo
+.logo {
+  background: transparent url('../images/logo.png') 0 0 no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 170px;
+  width: 130px;
+  @include mq($max-width: 800px) {
+    height: 90px;
+    width: 70px;
+  }
+  a {
+    display: block;
+    height: inherit;
+    text-indent: -8400px;
+    width: inherit;
+  }
+}

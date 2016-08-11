@@ -1,0 +1,21 @@
+// CERTIFICATIONS
+
+.certifications {
+  background: $white;
+  margin: 80px 0 0;
+  padding: 20px 0;
+  position: relative;
+  text-align: center;
+  ul {
+    margin: 0 auto;
+    max-width: 890px;
+    text-align: center;
+    width: 100%;
+  }
+
+  li {
+    display: table-cell;
+    padding: 0 3.4%;
+    vertical-align: middle;
+  }
+}

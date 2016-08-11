@@ -1,0 +1,18 @@
+// navigation
+nav {
+  text-align: center;
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    padding-right: 9%;
+    &:last-child {
+      padding-right: 0px;
+    }
+  }
+}

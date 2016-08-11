@@ -1,0 +1,18 @@
+// PROJECTS
+.projects {
+  padding: 55px 0;
+  .project-content {
+    color: $gray;
+    margin: 30px 0 45px;
+  }
+  .project-title, .project-value {
+    color: $blue2;
+    display: block;
+  }
+  ul {
+    margin: 65px 0 0;
+  }
+  span, p {
+    margin: 0 0 13px;
+  }
+}

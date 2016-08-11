@@ -1,0 +1,43 @@
+// .contact
+
+.contact-us {
+  background: transparent url('../images/contact-us-bg.jpg') 0 0 no-repeat;
+  background-size: cover;
+  color: $white;
+  padding: 65px 0 20px;
+  .row {
+    max-width: 970px;
+  }
+  .icons-list {
+    margin: 65px 0;
+    li {
+      margin: 0 0 30px;
+      padding-right: 0;
+      span.icon {
+        background: $white;
+        display: inline-block;
+        margin-bottom: 25px;
+        vertical-align: inherit;
+        img {
+          max-width: 50px;
+          top: 15px;
+          &[src="/application/themes/nwd/dist/images/icon-marker.png"] {
+            max-width: 35px;
+          }
+        }
+      }
+    }
+    p {
+      font-family: 'effra_lightregular';
+    }
+    a {
+      color: $white;
+    }
+  }
+  h2 {
+    padding: 0 0 70px;
+  }
+  p {
+    line-height: 25px;
+  }
+}

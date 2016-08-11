@@ -1,0 +1,21 @@
+// icons
+.icons-list {
+  .icon {
+    &.icon--electrical {
+
+    }
+    &.icon--assesment {
+      img {
+        max-width: 45px;
+      }
+    }
+    &.icon--energy {
+      img {
+        max-width: 45px;
+      }
+    }
+    &.icon--mechanical {
+
+    }
+  }
+}

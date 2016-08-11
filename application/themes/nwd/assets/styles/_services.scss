@@ -1,0 +1,96 @@
+// services
+.services {
+  color: $blue2;
+  padding: 70px 0 0;
+  .icons-list {
+    margin: 75px 0 0;
+    @include mq($max-width: 800px) {
+      margin: 25px 0 0;
+    }
+    li {
+      cursor: pointer;
+      padding-bottom: 40px;
+      padding-right: 0;
+      position: relative;
+      width: 210px;
+      @include mq($max-width: 900px) {
+        background: $lightblue;
+        float: left;
+        font-size: 0;
+        padding: 0;
+        width: 25%;
+        .icon {
+          height: 90px;
+          width: auto;
+        }
+        .service-title {
+          color: $white;
+          margin-top: 37px;
+        }
+      }
+      &.active {
+        &:after {
+          border-bottom: 15px solid $lightblue;
+          border-left: 15px solid transparent;
+          border-right: 15px solid transparent;
+          bottom: 0;
+          content: '';
+          height: 0;
+          left: 0;
+          margin: 0 auto;
+          position: absolute;
+          right: 0;
+          width: 0;
+          @include mq($max-width: 900px) {
+            border-bottom: 15px solid $white;
+          }
+        }
+      }
+    }
+  }
+}
+.services-content {
+  background: $lightblue;
+  padding: 75px 0;
+  @include mq($max-width: 900px) {
+    background: $white;
+    padding: 20px 0;
+  }
+  .row {
+    max-width: 850px;
+  }
+  .text-list {
+    @include clearfix();
+    @include mq($max-width: 900px) {
+      margin: 0;
+    }
+    li {
+      color: $white;
+      padding: 0 50px 0 0;
+      float: left;
+      width: 50%;
+      &:nth-of-type(2n) {
+        padding-right: 0;
+      }
+      &:before {
+        color: $blue;
+      }
+      @include mq($max-width: 800px) {
+        color: $blue;
+        float: none;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+  h3 {
+    color: $white;
+  }
+  p, ul {
+    margin-bottom: 25px;
+  }
+  p {
+    line-height: 25px;
+  }
+}

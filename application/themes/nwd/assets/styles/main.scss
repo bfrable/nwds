@@ -1,0 +1,26 @@
+// bower
+@import "bower_components/foundation/scss/foundation.scss";
+@import "bower_components/reset-scss/reset.scss";
+@import "bower_components/slick-carousel/slick/slick.scss";
+@import "bower_components/slick-carousel/slick/slick-theme.scss";
+@import "bower_components/sass-mediaqueries/_media-queries.scss";
+
+// global
+@import 'vars';
+@import 'fonts';
+@import 'base';
+
+// sections
+@import 'certifications';
+@import 'contact';
+@import 'footer';
+@import 'header';
+@import 'hero';
+@import 'projects';
+@import 'services';
+
+// components
+@import 'icons';
+@import 'icons-lists';
+@import 'logo';
+@import 'navigation';

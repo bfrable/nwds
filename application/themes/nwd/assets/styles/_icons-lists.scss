@@ -1,0 +1,31 @@
+// .icons-list
+.icons-list {
+  list-style-type: none;
+  li {
+    display: inline-block;
+    padding-right: 100px;
+    &:last-child {
+      padding-right: 0;
+    }
+    span.icon {
+      background: $lightblue;
+      border-radius: 100px;
+      display: inline-block;
+      height: 110px;
+      padding: 19px 0 0;
+      width: 110px;
+
+      img {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 65px;
+        position: relative;
+        top: 3px;
+      }
+    }
+    .service-title {
+      display: block;
+      margin-top: 23px;
+    }
+  }
+}

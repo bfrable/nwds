@@ -1,0 +1,51 @@
+body {
+  background: #fafafa;
+  color: $blue;
+  font-family: 'effraregular', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2, h3, h4, p {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'effra_lightregular';
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+sup {
+  vertical-align: super;
+  font-size: 50%;
+}
+
+ul.text-list {
+  padding: 0 40px;
+  text-align: left;
+  li {
+    display: inline-block;
+    margin: 3px 0;
+    &:before {
+      content: "• ";
+      padding-right: 5px;
+    }
+  }
+}
+
+.legal {
+  font-size: 16px;
+}
+
+.row {
+  max-width: 1205px;
+}
