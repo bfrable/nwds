@@ -1269,6 +1269,38 @@ ul.text-list {
   .contact-us p {
     line-height: 25px; }
 
+footer {
+  background: #a5a7ad;
+  padding: 60px 0 40px; }
+  footer:before, footer:after {
+    content: " ";
+    display: table; }
+  footer:after {
+    clear: both; }
+  footer .legal {
+    float: left; }
+  footer .social {
+    float: right;
+    margin-top: -15px; }
+    footer .social li {
+      display: inline-block; }
+    footer .social span {
+      display: inline-block;
+      width: 40px; }
+    footer .social img {
+      width: 100%; }
+  @media only screen and (max-width: 900px) {
+    footer {
+      padding: 30px 20px; }
+      footer .legal {
+        float: none;
+        width: 100%;
+        text-align: center; }
+      footer .social {
+        float: none;
+        margin-top: 20px;
+        text-align: center; } }
+
 header {
   background: #1e293c;
   padding: 20px 0;
@@ -1408,7 +1440,7 @@ header {
   @media only screen and (max-width: 900px) {
     .services-content {
       background: #ffffff;
-      padding: 20px 0; } }
+      padding: 20px; } }
   .services-content .row {
     max-width: 1024px; }
   .services-content .text-list:before, .services-content .text-list:after {

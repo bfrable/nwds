@@ -1,0 +1,36 @@
+// footer
+footer {
+  @include clearfix;
+  background: #a5a7ad;
+  padding: 60px 0 40px;
+  .legal {
+    float: left;
+  }
+  .social {
+    float: right;
+    margin-top: -15px;
+    li {
+      display: inline-block;
+    }
+    span {
+      display: inline-block;
+      width: 40px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  @include mq($max-width: 900px) {
+    padding: 30px 20px;
+    .legal {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .social {
+      float: none;
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+}

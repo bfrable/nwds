@@ -1,10 +1,12 @@
 <?php defined('C5_EXECUTE') or die("Access Denied."); ?>
 
 <footer>
-    <span class="legal">&copy; Copyright 2016. All Rights Reserved NW Design Services Ltd.</span>
-    <ul class="social">
-        <li><a href="#"><span class="icon"><i class="icon-linked-in"></i></span></a></li>
-    </ul>
+    <div class="row">
+        <span class="legal">&copy; Copyright 2016. All Rights Reserved NW Design Services Ltd.</span>
+        <ul class="social">
+            <li><a href="#"><span class="icon"><img src="<?= $view->getThemePath() ?>/dist/images/logo-linkedin.png" alt="Linked In"></span></a></li>
+        </ul>
+    </div>
 </footer>
 
 </div>
