@@ -9,8 +9,7 @@
 
     <?php Loader::element('header_required') ?>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" href="<?=$view->getThemePath()?>/favicon.ico">
 
     <link rel="stylesheet" href="<?= $view->getThemePath() ?>/dist/styles/main.css">
 
