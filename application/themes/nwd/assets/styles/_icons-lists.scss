@@ -21,6 +21,9 @@
         max-width: 65px;
         position: relative;
         top: 3px;
+        @include mq($max-width: 900px) {
+          max-width: 55px;
+        }
       }
     }
     .service-title {

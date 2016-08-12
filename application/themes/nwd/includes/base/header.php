@@ -25,7 +25,7 @@
         <div class="columns small-12">
             <nav>
                 <ul>
-                    <li><a href="#services" data-name="services">Servicess</a></li>
+                    <li><a href="#services" data-name="services">Services</a></li>
                     <li><a href="#projects" data-name="projects">Projects</a></li>
                     <li><a href="#contact" data-name="contact">Contact</a></li>
                 </ul>

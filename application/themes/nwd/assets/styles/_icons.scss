@@ -12,6 +12,9 @@
     &.icon--energy {
       img {
         max-width: 45px;
+        @include mq($max-width: 900px) {
+          max-width: 35px;
+        }
       }
     }
     &.icon--mechanical {

@@ -3,7 +3,10 @@
 <section data-section="contact" class="contact-us">
     <div class="row">
         <h2>Contact Us</h2>
-        <p>For general information or if you would like to discuss a project with a member of our team, <br>we’d love to hear from you. Drop us an email or give us a call.</p>
+        <?php
+        $a = new Area('Contact Content');
+        $a->display($c);
+        ?>
         <ul class="icons-list icons-list--contact-options">
             <li class="columns small-12 large-4">
                 <span class="icon"><img src="<?= $view->getThemePath() ?>/dist/images/icon-marker.png" alt=""></span>
@@ -23,6 +26,8 @@
         </ul>
     </div>
 
-    <!-- include certs -->
+    <?php
+    $this->inc('includes/sections/certifications.php');
+    ?>
 
 </section>

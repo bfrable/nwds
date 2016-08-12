@@ -5,6 +5,7 @@
   .icons-list {
     margin: 75px 0 0;
     @include mq($max-width: 800px) {
+      height: 81px;
       margin: 25px 0 0;
     }
     li {
@@ -23,12 +24,21 @@
           height: 90px;
           width: auto;
         }
+        img {
+          top: 13px !important;
+        }
         .service-title {
           color: $white;
           margin-top: 37px;
         }
       }
       &.active {
+        @include mq($max-width: 900px) {
+          background: $blue;
+          .icon {
+            background: $blue;
+          }
+        }
         &:after {
           border-bottom: 15px solid $lightblue;
           border-left: 15px solid transparent;
@@ -57,7 +67,7 @@
     padding: 20px 0;
   }
   .row {
-    max-width: 850px;
+    max-width: 1024px;
   }
   .text-list {
     @include clearfix();
@@ -68,6 +78,7 @@
       color: $white;
       padding: 0 50px 0 0;
       float: left;
+      font-size: 18px;
       width: 50%;
       &:nth-of-type(2n) {
         padding-right: 0;
@@ -75,7 +86,7 @@
       &:before {
         color: $blue;
       }
-      @include mq($max-width: 800px) {
+      @include mq($max-width: 900px) {
         color: $blue;
         float: none;
         padding: 0;
@@ -86,6 +97,10 @@
   }
   h3 {
     color: $white;
+    @include mq($max-width: 900px) {
+      color: $blue;
+      padding: 20px 0;
+    }
   }
   p, ul {
     margin-bottom: 25px;

@@ -38,6 +38,9 @@
             slick: function () {
                 helpers.services.slider.slick({
                     fade: true,
+                    adaptiveHeight: true,
+                    swipe: false,
+                    accessability: false,
                     arrows: false
                 });
             },

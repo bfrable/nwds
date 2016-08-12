@@ -1358,6 +1358,7 @@ header {
     margin: 75px 0 0; }
     @media only screen and (max-width: 800px) {
       .services .icons-list {
+        height: 81px;
         margin: 25px 0 0; } }
     .services .icons-list li {
       cursor: pointer;
@@ -1375,9 +1376,16 @@ header {
           .services .icons-list li .icon {
             height: 90px;
             width: auto; }
+          .services .icons-list li img {
+            top: 13px !important; }
           .services .icons-list li .service-title {
             color: #ffffff;
             margin-top: 37px; } }
+      @media only screen and (max-width: 900px) {
+        .services .icons-list li.active {
+          background: #1e293c; }
+          .services .icons-list li.active .icon {
+            background: #1e293c; } }
       .services .icons-list li.active:after {
         border-bottom: 15px solid #00aeef;
         border-left: 15px solid transparent;
@@ -1402,7 +1410,7 @@ header {
       background: #ffffff;
       padding: 20px 0; } }
   .services-content .row {
-    max-width: 850px; }
+    max-width: 1024px; }
   .services-content .text-list:before, .services-content .text-list:after {
     content: " ";
     display: table; }
@@ -1415,12 +1423,13 @@ header {
     color: #ffffff;
     padding: 0 50px 0 0;
     float: left;
+    font-size: 18px;
     width: 50%; }
     .services-content .text-list li:nth-of-type(2n) {
       padding-right: 0; }
     .services-content .text-list li:before {
       color: #1e293c; }
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 900px) {
       .services-content .text-list li {
         color: #1e293c;
         float: none;
@@ -1429,6 +1438,10 @@ header {
         width: 100%; } }
   .services-content h3 {
     color: #ffffff; }
+    @media only screen and (max-width: 900px) {
+      .services-content h3 {
+        color: #1e293c;
+        padding: 20px 0; } }
   .services-content p, .services-content ul {
     margin-bottom: 25px; }
   .services-content p {
@@ -1439,6 +1452,9 @@ header {
 
 .icons-list .icon.icon--energy img {
   max-width: 45px; }
+  @media only screen and (max-width: 900px) {
+    .icons-list .icon.icon--energy img {
+      max-width: 35px; } }
 
 .icons-list {
   list-style-type: none; }
@@ -1460,6 +1476,9 @@ header {
         max-width: 65px;
         position: relative;
         top: 3px; }
+        @media only screen and (max-width: 900px) {
+          .icons-list li span.icon img {
+            max-width: 55px; } }
     .icons-list li .service-title {
       display: block;
       margin-top: 23px; }
