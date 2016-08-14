@@ -8,11 +8,28 @@
         smoothScroll: function () {
 
             var headerHeight = $('header').innerHeight();
+            var heroHeight   = $('.hero').innerHeight();
+            var logo         = $('header .logo');
+            var showLogo;
+            
+            $(window).on('scroll', function() {
+                if($(this).scrollTop() >= heroHeight) {
+                    console.log(true);
+                    showLogo = true;
+                } else if ($(this).scrollTop() <= heroHeight) {
+                    console.log(false);
+                    showLogo = false;
+                }
 
-            $('nav a').click(function(e) {
+                if (showLogo) {
+                    logo.fadeIn();
+                } else {
+                    logo.fadeOut();
+                }
+            });
+
+            $('header a').click(function(e) {
                 var id = $(this).attr('data-name');
-
-                console.log(headerHeight);
 
                 e.preventDefault();
                 

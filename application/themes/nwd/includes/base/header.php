@@ -21,6 +21,9 @@
 
 <header>
     <div class="row">
+        <div class="logo">
+            <a href="#hero" data-name="hero">North West Design Services</a>
+        </div>
         <div class="columns small-12">
             <nav>
                 <ul>

@@ -5,4 +5,18 @@ header {
   position: fixed;
   width: 100%;
   z-index: 9;
+
+  .row {
+    position: relative;
+  }
+
+  .logo {
+    display: none;
+    height: 30px;
+    left: 16px;
+    position: absolute;
+    top: -2px;
+    width: 20px;
+    z-index: 9;
+  }
 }

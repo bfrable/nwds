@@ -1,6 +1,6 @@
 <?php defined('C5_EXECUTE') or die("Access Denied."); ?>
 
-<section class="hero">
+<section class="hero" data-section="hero">
     <div class="row">
         <div class="logo">
             <a href="#">North West Design Services</a>

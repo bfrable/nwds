@@ -1315,6 +1315,16 @@ header {
   position: fixed;
   width: 100%;
   z-index: 9; }
+  header .row {
+    position: relative; }
+  header .logo {
+    display: none;
+    height: 30px;
+    left: 16px;
+    position: absolute;
+    top: -2px;
+    width: 20px;
+    z-index: 9; }
 
 .hero {
   background: transparent url("../images/hero-bg.png") center bottom no-repeat;
