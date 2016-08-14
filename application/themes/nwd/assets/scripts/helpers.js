@@ -11,16 +11,13 @@
             var heroHeight   = $('.hero').innerHeight();
             var logo         = $('header .logo');
             var showLogo;
-            
+
             $(window).on('scroll', function() {
                 if($(this).scrollTop() >= heroHeight) {
-                    console.log(true);
                     showLogo = true;
                 } else if ($(this).scrollTop() <= heroHeight) {
-                    console.log(false);
                     showLogo = false;
                 }
-
                 if (showLogo) {
                     logo.fadeIn();
                 } else {
