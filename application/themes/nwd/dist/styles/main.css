@@ -1270,11 +1270,17 @@ ul.text-list {
         margin-bottom: 25px;
         vertical-align: inherit; }
         .contact-us .icons-list li span.icon img {
-          max-width: 45px;
-          top: 10px; }
+          max-width: 50px;
+          top: 15px; }
+          @media only screen and (max-width: 900px) {
+            .contact-us .icons-list li span.icon img {
+              max-width: 45px;
+              top: 10px; } }
           .contact-us .icons-list li span.icon img[src="/application/themes/nwd/dist/images/icon-marker.png"] {
-            max-width: 35px;
-            top: 5px; }
+            max-width: 35px; }
+            @media only screen and (max-width: 900px) {
+              .contact-us .icons-list li span.icon img[src="/application/themes/nwd/dist/images/icon-marker.png"] {
+                top: 5px; } }
     .contact-us .icons-list p {
       font-family: 'effra_lightregular'; }
     .contact-us .icons-list a {
