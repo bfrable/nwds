@@ -10,10 +10,15 @@
     }
     li {
       cursor: pointer;
-      padding-bottom: 40px;
+      padding-bottom: 30px;
       padding-right: 0;
       position: relative;
-      width: 210px;
+      width: 190px;
+      .service-title {
+        display: block;
+        font-size: 16px;
+        margin-top: 10px;
+      }
       @include mq($max-width: 900px) {
         background: $lightblue;
         float: left;
@@ -22,13 +27,15 @@
         width: 25%;
         .icon {
           height: 90px;
-          width: auto;
+          width: 100% !important;
         }
         img {
-          top: 13px !important;
+          top: 23px !important;
+          max-width: 43px !important;
         }
         .service-title {
           color: $white;
+          font-size: 16px;
           margin-top: 37px;
           @include mq($max-width: 900px) {
             display: block;
@@ -38,6 +45,14 @@
             top: 0;
             width: 100%;
           }
+        }
+      }
+      span.icon {
+        height: 90px;
+        width: 90px;
+        img {
+          max-width: 55px;
+          top: -1px;
         }
       }
       &.active {
@@ -86,7 +101,7 @@
       color: $white;
       padding: 0 40px 0 0;
       float: left;
-      font-size: 18px;
+      font-size: 16px;
       width: 50%;
       &:nth-of-type(2n) {
         padding-right: 0;
@@ -97,7 +112,8 @@
       @include mq($max-width: 900px) {
         color: $blue;
         float: none;
-        padding: 0;
+        line-height: 18px;
+        padding: 5px 0;
         text-align: center;
         width: 100%;
       }

@@ -20,9 +20,9 @@
   .content {
     margin: 0 auto;
     max-width: 960px;
-    padding: 0 20px;
+    padding: 0 30px;
     @include mq($max-width: 900px) {
-      padding: 0 30px;
+      padding: 0 40px;
     }
   }
   .text-list {
@@ -57,17 +57,21 @@
   }
   h2 {
     font-family: 'effra_lightregular';
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 43px;
+    line-height: 43px;
     margin: 25px 0;
     @include mq($max-width: 800px) {
-      font-size: 35px;
-      line-height: 35px;
+      font-size: 33px;
+      line-height: 33px;
     }
   }
   p {
     color: $lightblue;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 28px;
+    @include mq($max-width: 900px) {
+      font-size: 18px;
+      line-height: 26px;
+    }
   }
 }

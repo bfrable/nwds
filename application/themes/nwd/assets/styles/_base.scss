@@ -2,9 +2,12 @@ body {
   background: #fafafa;
   color: $blue;
   font-family: 'effraregular', Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   text-align: center;
+  @include mq($max-width: 900px) {
+    font-size: 16px;
+  }
 }
 
 h2, h3, h4, p {
@@ -13,15 +16,15 @@ h2, h3, h4, p {
 
 h2 {
   font-family: 'effra_lightregular';
-  font-size: 40px;
+  font-size: 38px;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 sup {

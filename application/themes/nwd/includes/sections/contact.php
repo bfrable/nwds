@@ -10,10 +10,12 @@
         <ul class="icons-list icons-list--contact-options">
             <li class="columns small-12 large-4">
                 <span class="icon"><img src="<?= $view->getThemePath() ?>/dist/images/icon-marker.png" alt=""></span>
-                <p>North West Design Services</p>
-                <p>Unit 40, Goyt Mill,</p>
-                <p>Upper Hibbert Lane, Marple,</p>
-                <p>Stockport , SK6 7HX</p>
+                <a href="https://www.google.co.uk/maps/place/Goyt+Mill,+Upper+Hibbert+Ln,+Marple,+Stockport+SK6+7HX/@53.3851484,-2.0671568,17z/data=!3m1!4b1!4m5!3m4!1s0x487bb545a41259e9:0x6b3580dc8263145a!8m2!3d53.3851484!4d-2.0649681" target="_blank">
+                    <p>North West Design Services</p>
+                    <p>Unit 40, Goyt Mill,</p>
+                    <p>Upper Hibbert Lane, Marple,</p>
+                    <p>Stockport , SK6 7HX</p>
+                </a>
             </li>
             <li class="columns small-12 large-4">
                 <span class="icon"><img src="<?= $view->getThemePath() ?>/dist/images/icon-envelope.png" alt=""></span>

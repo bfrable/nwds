@@ -7,6 +7,9 @@
   padding: 65px 0 20px;
   .row {
     max-width: 970px;
+    @include mq($max-width: 900px) {
+      padding: 0 20px;
+    }
   }
   .icons-list {
     margin: 65px 0;
@@ -19,10 +22,11 @@
         margin-bottom: 25px;
         vertical-align: inherit;
         img {
-          max-width: 50px;
-          top: 15px;
+          max-width: 45px;
+          top: 10px;
           &[src="/application/themes/nwd/dist/images/icon-marker.png"] {
             max-width: 35px;
+            top: 5px;
           }
         }
       }
@@ -36,6 +40,9 @@
   }
   h2 {
     padding: 0 0 70px;
+    @include mq($max-width: 900px) {
+      padding: 0 0 10px;
+    }
   }
   p {
     line-height: 25px;

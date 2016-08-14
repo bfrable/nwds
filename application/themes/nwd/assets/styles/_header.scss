@@ -15,8 +15,11 @@ header {
     height: 30px;
     left: 16px;
     position: absolute;
-    top: -2px;
+    top: -5px;
     width: 20px;
     z-index: 9;
+    @include mq($max-width: 900px) {
+      left: 10px;
+    }
   }
 }

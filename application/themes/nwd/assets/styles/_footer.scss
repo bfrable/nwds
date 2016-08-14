@@ -3,6 +3,9 @@ footer {
   @include clearfix;
   background: #a5a7ad;
   padding: 60px 0 40px;
+  .row {
+    max-width: 1024px;
+  }
   .legal {
     float: left;
   }

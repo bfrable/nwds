@@ -5,25 +5,31 @@
     'use strict';
 
     var helpers = {
-        smoothScroll: function () {
-
-            var headerHeight = $('header').innerHeight();
+        showHeaderLogo: function() {
             var heroHeight   = $('.hero').innerHeight();
             var logo         = $('header .logo');
             var showLogo;
 
+            console.log(heroHeight)
+
             $(window).on('scroll', function() {
-                if($(this).scrollTop() >= heroHeight) {
+                if($(this).scrollTop() >= heroHeight - 200) {
                     showLogo = true;
-                } else if ($(this).scrollTop() <= heroHeight) {
+                } else if ($(this).scrollTop() <= heroHeight - 200) {
                     showLogo = false;
                 }
+
                 if (showLogo) {
                     logo.fadeIn();
                 } else {
                     logo.fadeOut();
                 }
             });
+        },
+
+        smoothScroll: function () {
+
+            var headerHeight = $('header').innerHeight();
 
             $('header a').click(function(e) {
                 var id = $(this).attr('data-name');
@@ -67,6 +73,7 @@
         init: function () {
             this.smoothScroll();
             this.services.init();
+            this.showHeaderLogo();
         }
     };
 
