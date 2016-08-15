@@ -18,7 +18,7 @@
             </li>
             <li class="slide-3">
                 <span class="icon icon--assesment" data-service=""><img src="<?= $view->getThemePath() ?>/dist/images/icon-doc.png" alt=""></span>
-                <span class="service-title">Energy <br>Assesment</span>
+                <span class="service-title">Energy <br>Assessment</span>
             </li>
         </ul>
     </div>

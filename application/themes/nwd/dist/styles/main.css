@@ -1483,11 +1483,11 @@ header {
         top: 0;
         width: 100%; } }
       .services .icons-list li span.icon {
-        height: 90px;
-        width: 90px; }
+        height: 100px;
+        width: 100px; }
         .services .icons-list li span.icon img {
           max-width: 55px;
-          top: -1px; }
+          top: 3px; }
       @media only screen and (max-width: 900px) {
         .services .icons-list li.active {
           background: #1e293c; }
