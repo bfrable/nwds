@@ -6,7 +6,7 @@
   color: $white;
   padding: 65px 0 20px;
   .row {
-    max-width: 970px;
+    max-width: 940px;
     @include mq($max-width: 900px) {
       padding: 0 20px;
     }

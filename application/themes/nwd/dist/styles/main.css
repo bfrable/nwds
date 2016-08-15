@@ -1255,7 +1255,7 @@ ul.text-list {
   color: #ffffff;
   padding: 65px 0 20px; }
   .contact-us .row {
-    max-width: 970px; }
+    max-width: 940px; }
     @media only screen and (max-width: 900px) {
       .contact-us .row {
         padding: 0 20px; } }
